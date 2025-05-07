@@ -14,14 +14,14 @@ public class EmployeeRepository {
     static {
         Employee emp1 = Employee.builder()
                 .employeeId(1)
-                .emailId("abc.def@xyz.com")
+                .emailId("abc.abc@xyz.com")
                 .firstName("abc")
                 .lastName("def")
                 .build();
 
         Employee emp2 = Employee.builder()
                 .employeeId(2)
-                .emailId("jkl.mno@xyz.com")
+                .emailId("def.def@xyz.com")
                 .firstName("jkl")
                 .lastName("mno")
                 .build();
